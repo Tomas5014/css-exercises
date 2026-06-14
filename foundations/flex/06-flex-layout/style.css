@@ -24,3 +24,51 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* Minha solução: */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin:0px;
+  padding: 0px;
+  
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer {
+  background-color: lightgray;
+}
+
+.content{
+  align-self: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons button{
+  padding: 8px;
+}
+
+.input {
+  margin: 16px;
+}
